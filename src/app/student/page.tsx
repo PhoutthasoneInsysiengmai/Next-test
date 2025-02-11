@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function student() {
+export default function Student() {
   return (<>
   <h1>Avern</h1>
   <h2>Aiy</h2>
@@ -9,6 +9,5 @@ export default function student() {
   <h5>Vut</h5>
   <h6>Laemphet</h6>
   </>
-    
   );
 }
