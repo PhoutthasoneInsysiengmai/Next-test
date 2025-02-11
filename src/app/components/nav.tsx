@@ -2,10 +2,6 @@
 import React, {useState} from "react";
 import Link from "next/link";
 export default function Nav(){
-    const[isOpen, setIsOpen] =  useState<boolean>(false);
-    const toggle = () =>{
-        setIsOpen(old => !old);
-    }
     return (
         <nav className="bg-green-300 p-3">
             <ul className="flex">
